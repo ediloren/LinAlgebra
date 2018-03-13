@@ -29,11 +29,13 @@
 #define LINALG_H
 
 #include <cassert>
+#include <iostream>
 
 #ifdef MS_VS
 #include <crtdbg.h>
 #else
-#define _ASSERT wxASSERT
+#  include <wx/debug.h>
+#  define _ASSERT wxASSERT
 #endif
 
 #define LINALG_MAJOR_VERSION    '0'
