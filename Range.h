@@ -30,8 +30,8 @@
 #ifndef RANGE_H
 #define RANGE_H
 
-#include "linalg.h"
-#include "range.h"
+#include "Linalg.h"
+#include "Range.h"
 #include <math.h>
 
 class CLin_Range 

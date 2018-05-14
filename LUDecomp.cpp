@@ -31,7 +31,7 @@
 
 #include <cmath>
 
-#include "ludecomp.h"
+#include "LUDecomp.h"
 
 // right-looking LU factorization algorithm (unblocked)
 //

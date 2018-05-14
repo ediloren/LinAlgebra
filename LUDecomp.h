@@ -30,9 +30,9 @@
 #ifndef LUDECOMP_H
 #define LUDECOMP_H
 
-#include "linalg.h"
-#include "vect.h"
-#include "mtx.h"
+#include "Linalg.h"
+#include "Vect.h"
+#include "Mtx.h"
 
 // Solve system of linear equations Ax = b.
 //
